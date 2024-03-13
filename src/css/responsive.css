@@ -1,0 +1,84 @@
+/* Adicione estas regras para tornar o site responsivo */
+
+/* Estilos padrão para telas maiores */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 16px; /* Altere o tamanho da fonte para telas maiores */
+        overflow-x: hidden;
+        
+    }
+
+    header {
+        padding: 45px 0;
+    }
+
+    nav ul li a {
+        font-size: 24px;
+        margin-right: 25px;
+    }
+
+    .logo-zs h1 {
+        font-size: 40px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+
+    main {
+        padding: 30px;
+    }
+
+    section {
+        width: 264px;
+        padding: 30px;
+    }
+}
+
+/* Estilos para telas menores, como celulares e tablets */
+@media screen and (max-width: 767px) {
+    header img {
+        display: none; /* Oculte a imagem de fundo em telas menores */
+    }
+
+    header {
+        padding: 15px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    .logo-zs h1 {
+        font-size: 30px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    section {
+        width: 100%;
+        padding: 20px;
+    }
+    footer {
+        padding: 10px 0;
+    }
+
+    .secoes-horizontais {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 0;
+        margin: 0 auto; /* Adicione esta linha para centralizar as seções */
+    }
+}

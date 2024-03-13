@@ -1,0 +1,187 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #000000;
+}
+
+.container {
+    position: relative; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+
+
+header img 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    opacity: 0.7;
+}
+header {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.8991246156665791) 21%, rgba(255,0,0,0.34450276692708337) 52%, rgba(0,0,0,0.9047268565629377) 80%);
+    padding: 45px 0;
+    text-align: center;
+
+}
+
+.public-sans-font {
+    font-family: "Public Sans", sans-serif;
+    font-size: 25px;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px; 
+    line-height: 1.5; 
+    color: #7c7575; 
+}
+
+
+
+nav {
+    text-align: center;
+    
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+   
+}
+
+nav ul li a { 
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 37px;
+    margin-right: 55px; 
+}
+.fa-shopping-bag {
+    color: #ff0000; 
+    margin-right: 8px; 
+    font-size: 1.2em; 
+}
+
+/* Estilização para o texto "Produtos" no h1 */
+.logo-zs h1 {
+    color: #ecf0f1;
+    font-size: 1.5em; 
+    display: flex; 
+    align-items: center; 
+    font-size: 40px;
+}
+    
+    
+    .fa-coins {
+        font-size: 1.2em;
+        color: #ffd700; 
+        margin-right: 8px; 
+    }
+
+    .fa-star {
+        font-size: 1.2em;
+        color: #ffd700; 
+        margin-right: 8px; 
+    }
+    .fa-dollar-sign {
+        font-size: 1.2em;
+        color: #ffd700; 
+        margin-right: 8px; 
+    }
+      
+
+
+a:hover {
+    color: #ffcc00;
+    font-weight: bold;
+    animation: colorChange 3s infinite;
+  }
+    
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 30px;
+}
+
+section {
+    background-color: #ecf0f1;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+footer {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7904411764705882) 46%, rgba(0,0,0,0) 99%, rgba(0,0,0,0) 100%);
+    color: #ffcc00;
+    padding: 20px 0;
+    text-align: center;
+}
+.secoes-horizontais {
+    display: flex;
+    justify-content: center; 
+    gap: 36px; 
+    padding: 20px 0;
+    
+
+
+}
+.secoes-horizontais section {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.secoes-horizontais section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.secoes-horizontais section:active {
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25); 
+}
+section {
+    flex: none; 
+    width: 264px; 
+    padding: 10px; 
+    text-align: center; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+/* Efeito de hover para os "botões" */
+section:hover {
+    background: rgb(255,201,0);
+    background: linear-gradient(0deg, rgba(255,201,0,0) 0%, rgba(223,195,0,1) 57%);
+    color: #fff; 
+}
+
+
+.secoes-horizontais section {
+    border: 1px solid #ccc; 
+ }
+  /*  servidor  online icone */
+ .fa-check-circle {
+    color: #00ff00; 
+    margin-right: 8px; 
+}
